@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: bewpot/sitoprova
   branch: main
 
 media_folder: "images"
@@ -13,5 +14,5 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Testo", name: "body", widget: "markdown" }
