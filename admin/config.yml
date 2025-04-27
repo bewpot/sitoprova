@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: bewpot/bewpot/sitoprova
   branch: main
 
 media_folder: "images"
